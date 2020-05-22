@@ -8,7 +8,7 @@ git config --global push.default simple
 
 # Remove .gitignore and replace with the production version
 rm -f .gitignore
-cp scripts/prodignore .gitignore
+cp prodignore .gitignore
 cat .gitignore
 
 # Add the Linode production server as a remote repository

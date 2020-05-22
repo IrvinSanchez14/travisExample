@@ -7,11 +7,3 @@ sudo: false
 addons:
   ssh_known_hosts:
     - 45.79.35.9
-
-deploy:
-  - provider: script
-  skip_cleanup: true
-  script: bash scripts/deploy.sh
-  on:
-      branch: master
-    

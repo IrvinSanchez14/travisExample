@@ -17,10 +17,10 @@ before_install:
   - ssh-add ~/.ssh/example-travis
   - echo -e "Host 45.79.35.9\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 
-  deploy:
-    - provider: script
-      skip_cleanup: true
-      script: bash scripts/deploy.sh
-      on:
-        branch: master
+deploy:
+  - provider: script
+  skip_cleanup: true
+  script: bash scripts/deploy.sh
+  on:
+      branch: master
     

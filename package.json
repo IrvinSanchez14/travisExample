@@ -13,7 +13,7 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"test": "echo 'RUN TEST OK'",
+		"test": "echo 'RUN TEST OK HERE'",
 		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {

@@ -15,7 +15,7 @@ function App() {
 					href="https://reactjs.org"
 					target="_blank"
 					rel="noopener noreferrer">
-					IRVIN sanchez
+					IRVIN
 				</a>
 			</header>
 		</div>

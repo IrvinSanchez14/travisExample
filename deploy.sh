@@ -18,4 +18,4 @@ git remote add production ssh://travisci@45.79.35.9:/root/travisExample.git
 git add . && git commit -m "React build"
 
 # Push all changes to the Linode production server
-git push origin HEAD:master
+git push origin HEAD:refs/for/master
